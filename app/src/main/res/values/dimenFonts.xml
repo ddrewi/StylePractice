@@ -4,6 +4,6 @@
         sp -> "It is recommended you use this unit when specifying font sizes,
         so they will be adjusted for both the screen density and the user's preference." -->
 
-    <dimen name="fontsize">25sp</dimen>
+    <dimen name="fontsize">15sp</dimen>
     <dimen name="fontLarge">40sp</dimen>
 </resources>
