@@ -16,4 +16,22 @@
     </style>
 
 
+    <style name="EditTextCustom" parent="android:style/Widget.EditText">
+        <item name="android:background">@color/secondaryColor</item>
+        <item name="android:textColor">@color/secondaryDarkColor</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:layout_width">@dimen/editTextWidth</item>
+        <item name="android:layout_height">@dimen/editTextHeight</item>
+    </style>
+
+
+    <style name="ButtonCustom" parent="android:style/Widget.Button">
+        <item name="android:background">@color/purple_200</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+    </style>
+
+
 </resources>
