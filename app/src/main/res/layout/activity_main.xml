@@ -10,42 +10,51 @@
         android:id="@+id/textView"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
+        android:textSize="@dimen/fontSize"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.20" />
+
+
 
     <EditText
         android:id="@+id/editText"
         style="@style/EditTextCustom"
-        android:inputType="textPersonName"
         android:hint="Name"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374" />
+        app:layout_constraintVertical_bias="0.35" />
 
+    <!-- colorPrimary affects the background color
+     of the button. -->
+
+    <!-- colorOnPrimary affects the text color
+         of the button. -->
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
 
-    <Button
-        android:id="@+id/button2"
-        style="@style/ButtonCustom"
-        android:text="Button"
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/TextViewCustom"
+        android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691" />
+        app:layout_constraintVertical_bias="0.80" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
