@@ -9,11 +9,11 @@
     <dimen name="fontSize">25sp</dimen>
     <dimen name="smallFontSize">20sp</dimen>
 
-    <dimen name="topPadding">40dp</dimen>
-    <dimen name="leftPadding">20dp</dimen>
+    <dimen name="topPadding">20dp</dimen>
+    <dimen name="leftPadding">15dp</dimen>
 
     <dimen name="topMargin">20dp</dimen>
     <dimen name="layoutTopMargin">100dp</dimen>
-    <dimen name="layoutBottomMargin">50dp</dimen>
+    <dimen name="layoutLeftMargin">50dp</dimen>
 
 </resources>
