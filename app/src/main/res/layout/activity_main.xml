@@ -50,7 +50,7 @@
     <TextView
         android:id="@+id/textView2"
         style="@style/TextViewCustom"
-        android:text="Custom Text"
+        android:text="Custom TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

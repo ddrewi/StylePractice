@@ -19,5 +19,14 @@
     <color name="primaryTextColor">#000000</color>
     <color name="secondaryTextColor">#ffffff</color>
 
+    <color name="primaryBlueColor">#42a5f5</color>
+    <color name="primaryLightBlueColor">#80d6ff</color>
+    <color name="primaryDarkBlueColor">#0077c2</color>
+
+    <color name="secondaryPurpleColor">#b867c6</color>
+    <color name="secondaryLightPurpleColor">#ec97f9</color>
+    <color name="secondaryDarkPurpleColor">#863895</color>
+
+
 
 </resources>
